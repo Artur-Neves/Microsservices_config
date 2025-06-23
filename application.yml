@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: config-server
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - "*"
+
+config-server:
+    greeting: "hello dev"
+    default-value: "Mundo"
